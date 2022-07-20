@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vinculacion de Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- Vincular una libreria de iconos tipograficos - Jam Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <!-- Vinculacion de Animate - Efectos o Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Electronica Dylon</title>
+    <!--correcto file externo-->
+</head>
+
+<body>
+    <header class="header">
+        <!--   <img class="header__logo"  src="./imagenes/header_04.jpg" alt="Logo dylon" width="100" height="60">-->
+        <!--   <img class="header__logo logo__titulo" src="./imagenes/logocirculos.jpg" alt="Logo dylon" width="200" height="60">-->
+        <img class="header__logo" src="../imagenes/dylonelectronica.jpg" alt="Logo dylon" width="200" height="60">
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+        <h2 class="h2__color">Dylon Electronica</h2>
+        <nav class="nav" id="abierto">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./empresa.html">Empresa</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./carrito.html">Carrito</a>
+                </li>
+                <li class="nav__item nav__item--oculto">
+                    <a href="#cerrado">X</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--        <section> -->
+        <!--imagenes de elementos pasando manualmente-->
+        <!--<div class="flexbox">-->
+        <!--        <div>
+                <img src="../imagenes/productos/9208.jpg" alt="multimetro 1" width="60" height="60">
+                <img src="../imagenes/productos/SNT17B.jpg" alt="multimetro 2" width="60" height="60">
+                <img src="../imagenes/productos/imasss3.jpg" alt="barredora" width="60" height="60">
+                <img src="../imagenes/productos/camara 350-90.jpg" alt="camara1" width="60" height="60">
+                <img src="../imagenes/productos/central.jpg" alt="alarma" width="60" height="60">
+                <img src="../imagenes/productos/ua6243lmeter.jpg" alt="multimetro 3" width="60" height="60">
+                <img src="../imagenes/productos/con camara.JPG" alt="aspiradora 1" width="60" height="60">
+                <img src="../imagenes/productos/robotwifi.jpg" alt="camara2" width="60" height="60">
+                <img src="../imagenes/productos/Doorphone.jpg" alt="portero" width="60" height="60">
+                <img src="../imagenes/productos/aspiradora1.jpg" alt="aspiradora 2" width="60" height="60">
+                </div> -->
+        <!--</div>-->
+        <!--    </section>-->
+
+        <section>
+            <!--imagenes de elementos pasando automaticamente-->
+            <div class="card card__image--primera">
+                <img class="card__image " src="../imagenes/productos/ua6243lmeter.jpg" alt="Mult1" width="80"
+                    height="100">
+                <h3 class="card__title">LSR UA6243</h3>
+                <p class="card__description">Medidor de Capacitores, resistencias y inductancias</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/con camara.JPG" alt="Mult2" width="100"
+                    height="100">
+                <h3 class="card__title">IMASS SA60</h3>
+                <p class="card__description">Barredora IMASS con camara</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/Robotwifi.jpg" alt="Aspi" width="100" height="100">
+                <h3 class="card__title">Robot WIFI</h3>
+                <p class="card__description">Camara Robot WIFI 433MHz</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/Doorphone.jpg" alt="domo" width="150" height="100">
+                <h3 class="card__title">Portero</h3>
+                <p class="card__description">Portero con accesorios</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/aspiradora1.jpg" alt="Alarm" width="100"
+                    height="100">
+                <h3 class="card__title">Aspiradora</h3>
+                <p class="card__description">Aspiradora de solidos y liquidos</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/9208.jpg" alt="Mult1" width="100" height="100">
+                <h3 class="card__title">Multimetro 9208A</h3>
+                <p class="card__description">Multimetro con temperatura</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/SNT17B.jpg" alt="Mult2" width="100" height="100">
+                <h3 class="card__title">Multimetro SNT17B</h3>
+                <p class="card__description">Multimetro Profesional Multirango</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/imasss3.jpg" alt="Aspi" width="100" height="100">
+                <h3 class="card__title">IMASS</h3>
+                <p class="card__description">Barredora Robot IMASS WIFI</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/camara 350-90.jpg" alt="domo" width="100"
+                    height="100">
+                <h3 class="card__title">Domo SN100</h3>
+                <p class="card__description">Domo WIFI con movimiento</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/central.jpg" alt="Alarm" width="100" height="100">
+                <h3 class="card__title">Alarma 433MHz</h3>
+                <p class="card__description">Alarma WIFI y GSM 433MHz</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/termometro.jpeg" alt="Alarm" width="100"
+                    height="100">
+                <h3 class="card__title">Alarma 433MHz</h3>
+                <p class="card__description">Alarma WIFI y GSM 433MHz</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../imagenes/productos/vrcam.jpg" alt="Alarm" width="100" height="100">
+                <h3 class="card__title">Alarma 433MHz</h3>
+                <p class="card__description">Alarma WIFI y GSM 433MHz</p>
+                <button class="card__boton">Comprar</button>
+            </div>
+            <!--            <div>
+                <img src="./imagenes/productos/9208.jpg" alt="multimetro 1" width="50" height="50">
+                <img src="./imagenes/productos/SNT17B.jpg" alt="multimetro 2" width="50" height="50">
+                <img src="./imagenes/productos/imasss3.jpg" alt="barredora" width="50" height="50">
+                <img src="./imagenes/productos/camara 350-90.jpg" alt="camara" width="50" height="50">
+                <img src="./imagenes/productos/central.jpg" alt="alarma" width="50" height="50">
+            </div>-->
+        </section>
+
+
+
+    </main>
+    <footer class="footer__horizontal">
+        <!--        <img class="footer__logo logo__titulo" src="../imagenes/logocirculos.jpg" alt="Logo dylon" width="50" height="30">-->
+
+        <img class="header__imagen" src="../imagenes/dylonelectronica.jpg" alt="logo de dylon" width="120" height="60">
+        <h3 class="h3__derechos">Derechos reservados - © Dylon Electronica</h3>
+        <ul class="ul__stylefooter">
+            <li>
+                <a class="a__color--footer" href="https://www.instagram.com/" target="_blank"><img
+                        src="../imagenes/instagram.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="a__color--footer" href="https://www.facebook.com/" target="_blank"><img
+                        src="../imagenes/facebook.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="a__color--footer" href="https://twitter.com/" target="_blank"><img
+                        src="../imagenes/gorjeo.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="main__inicio1__whatsapp" href="https://wa.me/5491120400864" target="_blank">
+                    <span class="jam jam-whatsapp"></span>
+                </a>
+                <!--                <a class="a__color--footer" href="https://www.whatsapp.com/" target="_blank"><img
+                        src="./imagenes/whatsapp.png" alt="multimetro 1" width="25" height="25"></a>-->
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

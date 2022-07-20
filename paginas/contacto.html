@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vinculacion de Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- Vincular una libreria de iconos tipograficos - Jam Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <!-- Vinculacion de Animate - Efectos o Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Electronica Dylon</title>
+</head>
+
+<body>
+    <header class="header">
+        <!--   <img class="header__logo"  src="./imagenes/header_04.jpg" alt="Logo dylon" width="100" height="60">-->
+        <!--   <img class="header__logo logo__titulo" src="./imagenes/logocirculos.jpg" alt="Logo dylon" width="200" height="60">-->
+        <img class="header__logo" src="../imagenes/dylonelectronica.jpg" alt="Logo dylon" width="200" height="60">
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+        <h2 class="h2__color">Dylon Electronica</h2>
+        <nav class="nav" id="abierto">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./empresa.html">Empresa</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./carrito.html">Carrito</a>
+                </li>
+                <li class="nav__item nav__item--oculto">
+                    <a href="#cerrado">X</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__seccion">
+        <form action="" method="" enctype="">
+            <h2>
+                Ingrese los campos requeridos
+            </h2>
+            <div class="div__space">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="div__space">
+                <label for="">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Mail" required>>
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Pais:</label>
+                <input type="text" id="pais" name="pais" placeholder="Pais" required>
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Provincia:</label>
+                <input type="text" id="provincia" name="provincia" placeholder="Provincia" required>
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Cuidad:</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required>
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Codigo Postal:</label>
+                <input type="text" id="postal" name="postal" placeholder="Código Postal (Opcional)">
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Telefono (Opcional)">
+            </div>
+            <div class="div__space">
+                <label for="Nombre">Comentario:</label>
+                <input type="text" id="comentario" name="comentario" placeholder="Comentario" required>
+            </div>
+            <div class="div__space">
+                <button>Enviar Consulta</button>
+            </div>
+            <br>
+        </form>
+        <section class="main__ubicacion">
+            <iframe class="main__contacto__ubicacion"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26258.67174957273!2d-58.617143764872914!3d-34.64626779288173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1655859661426!5m2!1ses-419!2sar"
+                width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer class="footer__horizontal">
+        <img class="header__imagen" src="../imagenes/dylonelectronica.jpg" alt="logo de dylon" width="120" height="60">
+        <h3 class="h3__derechos">Derechos reservados - © Dylon Electronica</h3>
+        <ul class="ul__stylefooter">
+            <li>
+                <a class="a__color--footer" href="https://www.instagram.com/" target="_blank"><img
+                        src="../imagenes/instagram.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="a__color--footer" href="https://www.facebook.com/" target="_blank"><img
+                        src="../imagenes/facebook.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="a__color--footer" href="https://twitter.com/" target="_blank"><img
+                        src="../imagenes/gorjeo.png" alt="multimetro 1" width="25" height="25"></a>
+            </li>
+            <li>
+                <a class="main__inicio1__whatsapp" href="https://wa.me/5491120400864" target="_blank">
+                    <span class="jam jam-whatsapp"></span>
+                </a>
+                <!--                <a class="a__color--footer" href="https://www.whatsapp.com/" target="_blank"><img
+                        src="./imagenes/whatsapp.png" alt="multimetro 1" width="25" height="25"></a>-->
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
