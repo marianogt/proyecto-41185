@@ -100,7 +100,7 @@ main {
     color: orange;
     font-style: italic;
     font-weight: bold;
-    width: 300px;
+    /*width: 260px;*/
     margin-left: 250px;
     text-align: center;
 }
