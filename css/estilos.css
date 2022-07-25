@@ -80,6 +80,10 @@ main {
     padding: 0 1rem;
     position: relative;
 }
+.main__cont__div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .main__inicio1__izq {
     width: 50%;
@@ -122,6 +126,8 @@ main {
 
 .main__inicio1__ilustracion {
     padding-top: 5px;
+    align-items: center;
+    margin-left: 60px;
 }
 
 .main__inicio1__whatsapp {
@@ -215,10 +221,10 @@ main {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 4REM;
-    align-items: flex-end;
+    gap: 2REM;
+    align-items: center;
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right: 8rem;
     margin-bottom: 1rem;
     /*font-style: italic;
     position: relative;
@@ -521,8 +527,8 @@ main {
     }
 
     .main__inicio1__ilustracion {
-        width: 700px;
-        margin-left: 300px;
+        width: 650px;
+        margin-left: 10px;
     }
 }
 
@@ -584,7 +590,7 @@ main {
     }
 
     .main__inicio1__ilustracion {
-        width: 320px;
+        width: 260px;
         margin-left: 1px;
     }
 
@@ -686,5 +692,5 @@ main {
 
     .card__image--primera {
         margin-top: 82px;
-    }
+    }   
 }
