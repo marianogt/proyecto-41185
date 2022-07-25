@@ -262,10 +262,11 @@ main {
     /*  animation-timing-function: cubic-bezier();*/
 }
 
-/*.main__ubicacion {
+.main__ubicacion {
     padding-top: 20px;
-    padding-left: 80px;
-}*/
+/*    padding-left: 80px;*/
+}
+
 .parrafo__empresa {
     padding: 20px 120px 20px 20px;
     font-family: Arial, Helvetica, sans-serif, cursive;
@@ -693,4 +694,9 @@ main {
     .card__image--primera {
         margin-top: 82px;
     }   
+    .main__seccion {
+        padding-top: 80px;
+        /*width: 50%;*/
+    }
+    
 }
