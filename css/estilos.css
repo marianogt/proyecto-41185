@@ -61,8 +61,9 @@ a {
 .h2__color {
     color: orange;
     /*font-style: normal;*/
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
     font-size: 50px;
+    font-weight: bold;
 }
 
 main {
@@ -99,13 +100,13 @@ main {
 
 .main__inicio1__color {
     background-color: rgb(1, 29, 36);
-    border-radius: 15px;
+    border-radius: 14px;
     /*    color: chocolate;*/
     color: orange;
     font-style: italic;
     font-weight: bold;
     /*width: 260px;*/
-    margin-left: 250px;
+    margin-left: 60px;
     text-align: center;
 }
 
@@ -162,7 +163,6 @@ main {
     /*sombra*/
     /*  text-align:justify;*/
     margin-left: 10px;
-    ;
 }
 
 .card__imagen {
@@ -192,16 +192,16 @@ main {
     border-radius: 4px;
     width: 100px;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 30px;
 }
 
 .card__title {
+    margin-top: 10px;
     text-align: center;
- /*  color: rgb(159, 151, 151);*/
- /*  font-size: 20px;
-    margin-bottom: 4px;*/
-    /*text-transform: uppercase;*/
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .card__description {
@@ -328,7 +328,7 @@ main {
     /* animation: vibrate-1 0.3s linear infinite both; */
     animation-name: animate__shakeX;
     /*vibrate-1;*/
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -336,33 +336,33 @@ main {
 @keyframes animate__shakeX {
     0% {
         /* 0 Segundos */
-        transform: translate(10px);
+        transform: translate(0px);
     }
 
-    25% {
+    33% {
         /* 0 Segundos */
-        transform: translate(40px);
+        transform: translate(175px);
     }
 
-    50% {
-        /* 2 Segundos */
-        transform: translate(70px);
+    66% {
+        /* 0 Segundos */
+        transform: translate(350px);
+    }
+    100% {
+        transform: translate(0px);
     }
 
-    60% {
-        /* 2 Segundos */
+/*    60% {
         transform: translate(-70px);
     }
 
     75% {
-        /* 2 Segundos */
         transform: translate(-40px);
     }
 
     100% {
-        /* 4 Segundos */
         transform: translate(-10px);
-    }
+    }*/
 }
 
 @keyframes vibrate-1 {
@@ -531,10 +531,19 @@ main {
         width: 650px;
         margin-left: 10px;
     }
+    .main__contacto__ubicacion {
+        width: 740px;
+    }
 }
 
 /* Movil */
 @media screen and (max-width:599px) {
+ 
+    .main{
+         background: linear-gradient(to right, #2dd2d5, #209a9c, #036c6e);
+    }
+ 
+ 
     .nav {
         display: none;
         background-color: black;
@@ -544,8 +553,8 @@ main {
         top: 0;
         left: 0;
         z-index: 1000000;
-        width: 33%;
-        height: 30vh;
+        width: 45%;
+        height: 25vh;
         /*  color: rgb(0, 0, 0);*/
     }
 
@@ -588,6 +597,7 @@ main {
 
     .main__inicio1__color {
         margin-left: 0px;
+        margin-top: 10px;
     }
 
     .main__inicio1__ilustracion {
@@ -666,8 +676,13 @@ main {
     .main__empresa_imagen {
         width: 320px;
     }
-
-    .parrafo__empresa {
+    .main_h3_size{
+        font-size: 18px;
+    }
+    .main_h1_size{
+        font-size: 20px;
+    }
+    .parrafo__empresa{
         padding: 20px 120px 20px 20px;
         font-family: Arial, Helvetica, sans-serif, cursive;
         font-style: italic;
@@ -698,5 +713,23 @@ main {
         padding-top: 80px;
         /*width: 50%;*/
     }
+    @keyframes animate__shakeX {
+        0% {
+            /* 0 Segundos */
+            transform: translate(0px);
+        }
     
+        33% {
+            /* 0 Segundos */
+            transform: translate(55px);
+        }
+    
+        66% {
+            /* 0 Segundos */
+            transform: translate(110px);
+        }
+        100% {
+            transform: translate(0px);
+        }
+    }
 }
