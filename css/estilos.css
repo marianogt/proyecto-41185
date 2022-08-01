@@ -168,6 +168,11 @@ main {
   margin-top: 10px;
   margin-left: 30px; }
 
+.card__boton:hover {
+  background-color: red;
+  color: white;
+  transition: 1s; }
+
 .card__title {
   margin-top: 10px;
   text-align: center;
