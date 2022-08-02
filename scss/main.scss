@@ -475,6 +475,25 @@ main {
     padding: 0.5rem 1rem;
 }
 
+@keyframes animate__shakeX {
+    0% {
+        /* 0 Segundos */
+        transform: translate(0px);
+    }
+
+    33% {
+        /* 0 Segundos */
+        transform: translate(55px);
+    }
+
+    66% {
+        /* 0 Segundos */
+        transform: translate(110px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
 
 /* Tablet */
 @media screen and (max-width:1210px) {
@@ -686,24 +705,5 @@ main {
     .main__seccion {
         padding-top: 80px;
         /*width: 50%;*/
-    }
-    @keyframes animate__shakeX {
-        0% {
-            /* 0 Segundos */
-            transform: translate(0px);
-        }
-    
-        33% {
-            /* 0 Segundos */
-            transform: translate(55px);
-        }
-    
-        66% {
-            /* 0 Segundos */
-            transform: translate(110px);
-        }
-        100% {
-            transform: translate(0px);
-        }
     }
 }
