@@ -18,15 +18,17 @@
   align-items: center;
   padding: 0.5rem;
   height: 100px; }
-  .header .header__logo {
-    width: 195px;
-    height: 95px;
-    border-radius: 10px; }
-  .header .header__icono {
-    font-size: 32px;
-    color: orange;
-    text-decoration: none;
-    display: none; }
+
+.header__logo {
+  width: 195px;
+  height: 95px;
+  border-radius: 10px; }
+
+.header__icono {
+  font-size: 32px;
+  color: orange;
+  text-decoration: none;
+  display: none; }
 
 body {
   font-family: 'Roboto', sans-serif; }

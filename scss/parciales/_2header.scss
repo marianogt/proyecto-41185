@@ -7,7 +7,7 @@
 
 .header {
     background-color: rgba(0, 0, 0, 1);
-    color:white;
+    color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,17 +19,19 @@
     align-items: center;
     padding: 0.5rem;
     height: 100px;
-    .header__logo {
-        width: 195px;
-        height: 95px;
-        border-radius: 10px;
-    }
-    .header__icono {
-        font-size: 32px;
-        color: orange;
-        text-decoration: none;
-        display: none;
-    }
+}
+
+.header__logo {
+    width: 195px;
+    height: 95px;
+    border-radius: 10px;
+}
+
+.header__icono {
+    font-size: 32px;
+    color: orange;
+    text-decoration: none;
+    display: none;
 }
 
 body {
@@ -63,6 +65,3 @@ a {
     font-size: 50px;
     font-weight: bold;
 }
-
-
-
