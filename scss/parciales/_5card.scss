@@ -1,0 +1,71 @@
+.card {
+    background-color: chocolate;
+    /* rgb(16, 140, 140);*/
+    color: rgb(16, 4, 62);
+    width: 249px;
+    height: 250px;
+    padding: 8px 20px 16px 16px;
+    margin: 0px;
+    /*espaciado interno entre el contenido y el borde arriba derecha abajo izquierda*/
+    border: 2px solid black;
+    /*border-top .... se pueden poner los 4 por separado*/
+    overflow: auto;
+    display: inline-block;
+    border-radius: 4px;
+    /*redondeo bordes*/
+    box-shadow: 5px 4px 10px rgb(108, 101, 101);
+    /*sombra*/
+    /*  text-align:justify;*/
+    margin-left: 10px;
+}
+
+.card__imagen {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card__parrafo {
+    text-align: center;
+    font-size: 11px;
+    color: aqua;
+}
+
+.card--ocultar {
+    display: none;
+}
+
+.card--oscuro {
+    background-color: black;
+    color: white;
+}
+
+.card__boton {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.card__boton:hover {
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+.card__title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card__description {
+    text-align: center;
+    font-size: 14px;
+    color:black;
+}

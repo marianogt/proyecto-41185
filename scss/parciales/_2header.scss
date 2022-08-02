@@ -7,7 +7,7 @@
 
 .header {
     background-color: rgba(0, 0, 0, 1);
-    color:white;
+    color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,17 +19,49 @@
     align-items: center;
     padding: 0.5rem;
     height: 100px;
-    .header__logo {
-        width: 195px;
-        height: 95px;
-        border-radius: 10px;
-    }
-    .header__icono {
-        font-size: 32px;
-        color: orange;
-        text-decoration: none;
-        display: none;
-    }
 }
 
+.header__logo {
+    width: 195px;
+    height: 95px;
+    border-radius: 10px;
+}
 
+.header__icono {
+    font-size: 32px;
+    color: orange;
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 16px;
+    color: aqua;
+}
+
+.nav__item--oculto {
+    display: none;
+}
+
+.h2__color {
+    color: orange;
+    /*font-style: normal;*/
+    font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
