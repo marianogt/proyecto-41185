@@ -310,7 +310,8 @@ main {
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 600px;
-  color: #297070; }
+  color: #297070;
+  /*  font-size: 20px;*/ }
 
 .footer__logo {
   width: 65px;
