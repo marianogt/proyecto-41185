@@ -32,4 +32,37 @@
     }
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 16px;
+    color: aqua;
+}
+
+.nav__item--oculto {
+    display: none;
+}
+
+.h2__color {
+    color: orange;
+    /*font-style: normal;*/
+    font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
 
