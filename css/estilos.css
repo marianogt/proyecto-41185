@@ -309,8 +309,9 @@ main {
 .h3__footer__derechos {
   padding-top: 20px;
   padding-bottom: 10px;
-  padding-left: 600px;
-  color: #297070; }
+  padding-left: 500px;
+  color: #297070;
+  font-size: 20px; }
 
 .footer__logo {
   width: 65px;
@@ -398,101 +399,6 @@ main {
     -webkit-transform: translate(0);
     transform: translate(0); } }
 
-<<<<<<< HEAD
-/* Estilos para el elemento padre */
-.grid {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 2px solid lightgray;
-  padding: 0.5rem;
-  height: 680px;
-  display: grid;
-  /* Sirve para generar las columnas de dicha cuadricula */
-  grid-template-columns: repeat(3, 1fr);
-  /* Sirve para generar las filas de dicha cuadricula */
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "img2 img2 img4" "img5 img3 img4" "img5 img3 img4";
-  /* Tercera fila de la cuadricula */
-  /* Espacios desde el padre para columnas o filas */
-  /* grid-column-gap: 10px;
-    grid-row-gap: 15px; */
-  /* row-gap: 20px;
-    column-gap: 30px; */
-  gap: 1rem;
-  /* Opcionales en el padre */
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: center;
-  align-content: center; }
-
-/* Estilos para el elemento hijo */
-.grid__hijo {
-  /* border: 1px solid orange; */
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative; }
-
-/* Detalles de color de fondo para elementos hijos xD */
-.grid__hijo--1 {
-  grid-area: img1;
-  /* Opcionales en el hijo */
-  justify-self: start;
-  /*align-self: center; */
-  background-color: #2a80b9; }
-
-.grid__hijo--2 {
-  grid-area: img2;
-  background-color: #8f44ad; }
-
-.grid__hijo--3 {
-  grid-area: img3;
-  background-color: #16a086; }
-
-.grid__hijo--4 {
-  grid-area: img4;
-  background-color: #f1c40f; }
-
-.grid__hijo--5 {
-  grid-area: img5;
-  background-color: #e77e23; }
-
-.grid__hijo--6 {
-  grid-area: img6;
-  background-color: pink; }
-
-.grid__img,
-.grid__iframe {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.grid__text {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: black;
-  /*    navy;*/
-  border-radius: 6px;
-  color: orange;
-  padding: 0.5rem 1rem; }
-
-@keyframes animate__shakeX {
-  0% {
-    /* 0 Segundos */
-    transform: translate(0px); }
-  33% {
-    /* 0 Segundos */
-    transform: translate(55px); }
-  66% {
-    /* 0 Segundos */
-    transform: translate(110px); }
-  100% {
-    transform: translate(0px); } }
-
-/* Tablet */
-=======
->>>>>>> aeb47cadf84cebdc2ec12c31a13aa16bd9c5ee9b
 @media screen and (max-width: 1210px) {
   .maim__inicio1__centro {
     display: none; }
@@ -629,4 +535,16 @@ main {
     margin-top: 82px; }
   .main__seccion {
     padding-top: 80px;
-    /*width: 50%;*/ } }
+    /*width: 50%;*/ }
+  @keyframes animate__shakeX {
+    0% {
+      /* 0 Segundos */
+      transform: translate(0px); }
+    33% {
+      /* 0 Segundos */
+      transform: translate(55px); }
+    66% {
+      /* 0 Segundos */
+      transform: translate(110px); }
+    100% {
+      transform: translate(0px); } } }
