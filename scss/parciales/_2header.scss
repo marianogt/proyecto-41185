@@ -29,7 +29,7 @@
 
 .header__icono {
     font-size: 32px;
-    color: orange;
+    color: $colorbase;
     text-decoration: none;
     display: none;
 }
@@ -59,7 +59,7 @@ a {
 }
 
 .h2__color {
-    color: orange;
+    color: $colorbase;
     /*font-style: normal;*/
     font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
     font-size: 50px;
