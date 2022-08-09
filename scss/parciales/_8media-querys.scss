@@ -1,4 +1,3 @@
-
 // Tablet 
 @media screen and (max-width:1210px) {
     .maim__inicio1__centro {
@@ -28,6 +27,7 @@
         width: 650px;
         margin-left: 10px;
     }
+
     .main__contacto__ubicacion {
         width: 740px;
     }
@@ -35,11 +35,11 @@
 
 /* Movil */
 @media screen and (max-width:599px) {
- 
-    .main{
-         background: linear-gradient(to right, #2dd2d5, #209a9c, #036c6e);
+
+    .main {
+        background: linear-gradient(to right, #2dd2d5, #209a9c, #036c6e);
     }
- 
+
     .nav {
         display: none;
         background-color: black;
@@ -47,21 +47,21 @@
         position: fixed;
         /* top, left, right, bottom */
         top: 0;
-//        left: 100%;
+        //        left: 100%;
         left: 0;
         z-index: 1000000;
         width: 45%;
         height: 25vh;
-  //      transition: left 1s;
+        //      transition: left 1s;
         /*  color: rgb(0, 0, 0);*/
     }
 
     .h2__color {
-       display: none;
+        display: none;
     }
 
     .header__icono {
-        display:block;
+        display: block;
     }
 
     .nav__lista {
@@ -88,7 +88,8 @@
     .main__inicio1__titulo {
         font-size: 30px;
     }
-/*
+
+    /*
     .main__inicio1__parrafo {
         font-size: 15px;
     }*/
@@ -108,7 +109,7 @@
         flex-direction: column;
     }
 
-    .h3__footer__derechos{
+    .h3__footer__derechos {
         padding-left: 1px;
         font-size: 15px;
     }
@@ -153,7 +154,7 @@
         background-color: black;
         /*    navy;*/
         border-radius: 6px;
-        color: orange;
+        color: $colorbase;
         padding: 0.5rem 0.5rem;
     }
 
@@ -174,13 +175,16 @@
     .main__empresa_imagen {
         width: 320px;
     }
-    .main_h3_size{
+
+    .main_h3_size {
         font-size: 18px;
     }
-    .main_h1_size{
+
+    .main_h1_size {
         font-size: 20px;
     }
-    .parrafo__empresa{
+
+    .parrafo__empresa {
         padding: 20px 120px 20px 20px;
         font-family: Arial, Helvetica, sans-serif, cursive;
         font-style: italic;
@@ -206,7 +210,8 @@
 
     .card__image--primera {
         margin-top: 82px;
-    }   
+    }
+
     .main__seccion {
         padding-top: 80px;
         /*width: 50%;*/
@@ -217,19 +222,20 @@
             /* 0 Segundos */
             transform: translate(0px);
         }
-    
+
         33% {
             /* 0 Segundos */
             transform: translate(55px);
         }
-    
+
         66% {
             /* 0 Segundos */
             transform: translate(110px);
         }
+
         100% {
             transform: translate(0px);
         }
     }
-   
+
 }
