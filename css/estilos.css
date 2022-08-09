@@ -51,7 +51,6 @@ a {
 
 .h2__color {
   color: orange;
-  /*font-style: normal;*/
   font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
   font-size: 50px;
   font-weight: bold; }
@@ -59,81 +58,40 @@ a {
 main {
   margin-top: 100px;
   min-height: 80vh;
-  /*    background: linear-gradient(to right, #F27121, #b32a3d, black);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, #24adaf, #074e5d, #012933);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  /* background: linear-gradient(to right, #F27121, #b32a3d, black);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #24adaf, #074e5d, #012933); }
 
-/* inicio1 */
 .main__inicio1 {
   display: flex;
   flex-direction: row;
   padding: 0 1rem;
   position: relative; }
 
-/*.main__cont__div{
-    padding-left: 10px;
-    padding-right: 10px;
-}*/
-/*
-.main__inicio1__izq {
-    width: 50%;
-    // border: 2px solid orange; 
-}*/
-/*
-.main__inicio1__titulo {
-    font-size: 50px;
-    font-weight: 500;
-  //   text-transform: uppercase;
-    margin-bottom: 0.5rem;
-}*/
 .main__inicio1__color {
   background-color: #011d24;
   border-radius: 14px;
-  /*    color: chocolate;*/
   color: orange;
   font-style: italic;
   font-weight: bold;
-  /*width: 260px;*/
   margin-left: 60px;
   text-align: center; }
 
-/*
-.main__inicio1__parrafo {
-    font-size: 30px;
-    line-height: 1.8;
-    // Interlineado 
-    margin-bottom: 1rem;
-}*/
-/*
-.main__inicio1__der {
-    width: 50%;
-  // border: 2px solid red; 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}*/
-/*
-.main__inicio1__texto {
-    font-size: 40px;
-    font-weight: 700;
-    //   text-transform: uppercase;
-    font-style: normal;
-}*/
+.main_h1_size {
+  font-weight: bold; }
+
 .main__inicio1__ilustracion {
   padding-top: 5px;
   align-items: center;
   margin-left: 60px; }
 
 .main__ubicacion {
-  padding-top: 20px;
-  /*    padding-left: 80px;*/ }
+  padding-top: 20px; }
 
 .main__seccion {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 10px;
-  /*width: 50%;*/ }
+  padding: 10px; }
 
 .parrafo__empresa {
   padding: 20px 120px 20px 20px;
@@ -145,6 +103,13 @@ main {
   display: flex;
   flex-wrap: wrap; }
 
+.main__empresa_titulo {
+  font-weight: bold; }
+
+/*.main__contacto__section {
+     background-image: "../imagenes/side.jpeg"; 
+     background-size: 10rem;
+}*/
 /* Estilos para el elemento padre */
 .grid {
   margin-top: 10px;

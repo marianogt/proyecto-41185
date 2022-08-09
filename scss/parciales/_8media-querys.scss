@@ -47,10 +47,12 @@
         position: fixed;
         /* top, left, right, bottom */
         top: 0;
+//        left: 100%;
         left: 0;
         z-index: 1000000;
         width: 45%;
         height: 25vh;
+  //      transition: left 1s;
         /*  color: rgb(0, 0, 0);*/
     }
 
