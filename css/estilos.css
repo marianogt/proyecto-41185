@@ -141,11 +141,6 @@ main {
   overflow: hidden;
   position: relative; }
 
-.grid__hijo--1 {
-  grid-area: img1;
-  justify-self: start;
-  background-color: #2a80b9; }
-
 .grid__hijo--2 {
   grid-area: img2;
   background-color: #8f44ad; }
@@ -166,6 +161,40 @@ main {
   grid-area: img6;
   background-color: pink; }
 
+/*.grid__hijo--1 {
+    grid-area: img1;
+    // Opcionales en el hijo 
+    justify-self: start;
+    //align-self: center; 
+    background-color: #2a80b9;
+}
+
+.grid__hijo--2 {
+    grid-area: img2;
+    background-color: #8f44ad;
+}
+
+.grid__hijo--3 {
+    grid-area: img3;
+    background-color: #16a086;
+}
+
+.grid__hijo--4 {
+    grid-area: img4;
+    background-color: #f1c40f;
+}
+
+.grid__hijo--5 {
+    grid-area: img5;
+    background-color: #e77e23;
+
+}
+
+.grid__hijo--6 {
+    grid-area: img6;
+    background-color: pink;
+
+}*/
 .grid__img,
 .grid__iframe {
   width: 100%;

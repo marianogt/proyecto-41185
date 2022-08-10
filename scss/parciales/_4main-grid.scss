@@ -48,7 +48,15 @@
 
 // Detalles de color de fondo para elementos hijos xD 
 
-.grid__hijo--1 {
+@for $i from 2 through 6 {
+    // .grid__hijo--2, .grid__hijo--3, .grid__hijo--4, .grid__hijo--5, .grid__hijo--6 
+    .grid__hijo--#{$i} {
+        grid-area: img#{$i};
+        background-color: map-get($backcolor, im+$i); // d1, d2, d3
+    }
+}
+
+/*.grid__hijo--1 {
     grid-area: img1;
     // Opcionales en el hijo 
     justify-self: start;
@@ -81,7 +89,7 @@
     grid-area: img6;
     background-color: pink;
 
-}
+}*/
 
 .grid__img,
 .grid__iframe {
