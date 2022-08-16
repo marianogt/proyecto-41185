@@ -31,13 +31,16 @@
     .main__contacto__ubicacion {
         width: 740px;
     }
+    .grid__hijo--4 {
+        width: 205px;
+    }    
 }
 
 /* Movil */
 @media screen and (max-width:599px) {
 
     .main {
-        background: linear-gradient(to right, #2dd2d5, #209a9c, #036c6e);
+        background: linear-gradient(to right, #2dd2d5, #209a9c, #047e80);
     }
 
     .nav {
@@ -101,7 +104,7 @@
     }
 
     .main__inicio1__ilustracion {
-        width: 260px;
+        width: 240px;
         margin-left: 1px;
     }
 
@@ -119,7 +122,6 @@
         margin-top: 1px;
         margin-left: 1px;
         margin-right: 1px;
-
         border: 2px solid lightgray;
         padding: 0.1rem;
         height: 320px;
@@ -128,7 +130,6 @@
         grid-template-columns: repeat(3, 1fr);
         /* Sirve para generar las filas de dicha cuadricula */
         grid-template-rows: repeat(3, 1fr);
-
         grid-template-areas:
             "img2 img2 img4"
             /* Primera fila de la cuadricula */
@@ -136,17 +137,16 @@
             /* Seguna fila de la cuadricula */
             "img5 img3 img4";
         /* Tercera fila de la cuadricula */
-
         gap: 0.5rem;
-
         justify-items: stretch;
         align-items: stretch;
-
         justify-content: center;
         align-content: center;
-
     }
 
+    .grid__hijo--4 {
+        width: 82px;
+    }
     .grid__text {
         font-size: 10px;
         position: absolute;
@@ -163,7 +163,7 @@
         margin-top: 20px;
         margin-bottom: 1px;
         /*    background: linear-gradient(to right, #F27121, #b32a3d, black);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background: linear-gradient(to right, #24adaf, #074e5d, rgb(1, 29, 36));
+        background: linear-gradient(to right, #24adaf, #074e5d, rgb(1, 33, 41));
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 

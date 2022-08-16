@@ -210,6 +210,16 @@ main {
   color: orange;
   padding: 0.5rem 1rem; }
 
+.h3__carrito {
+  margin-left: 10px; }
+
+.h3__carrito:hover {
+  background-color: aqua;
+  transition: 1s; }
+
+.main__contacto__section {
+  margin-left: 10px; }
+
 .card {
   background-color: chocolate;
   /* rgb(16, 140, 140);*/
@@ -411,12 +421,14 @@ main {
     width: 650px;
     margin-left: 10px; }
   .main__contacto__ubicacion {
-    width: 740px; } }
+    width: 740px; }
+  .grid__hijo--4 {
+    width: 205px; } }
 
 /* Movil */
 @media screen and (max-width: 599px) {
   .main {
-    background: linear-gradient(to right, #2dd2d5, #209a9c, #036c6e); }
+    background: linear-gradient(to right, #2dd2d5, #209a9c, #047e80); }
   .nav {
     display: none;
     background-color: black;
@@ -457,7 +469,7 @@ main {
     margin-left: 0px;
     margin-top: 10px; }
   .main__inicio1__ilustracion {
-    width: 260px;
+    width: 240px;
     margin-left: 1px; }
   .footer__horizontal {
     display: flex;
@@ -484,6 +496,8 @@ main {
     align-items: stretch;
     justify-content: center;
     align-content: center; }
+  .grid__hijo--4 {
+    width: 82px; }
   .grid__text {
     font-size: 10px;
     position: absolute;
@@ -498,7 +512,7 @@ main {
     margin-top: 20px;
     margin-bottom: 1px;
     /*    background: linear-gradient(to right, #F27121, #b32a3d, black);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #24adaf, #074e5d, #011d24);
+    background: linear-gradient(to right, #24adaf, #074e5d, #012129);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .main__ubicacion {
     padding-top: 80px;
