@@ -34,6 +34,10 @@
     .grid__hijo--4 {
         width: 205px;
     }    
+    .nav__item{
+        margin-left: 25px;
+        margin-right: 15px;
+    }
 }
 
 /* Movil */
@@ -74,6 +78,10 @@
         gap: 1rem;
         height: 100%;
         margin-top: 10px;
+    }
+
+    .nav__item{
+        margin-left: 5px;
     }
 
     .nav:target {
@@ -163,7 +171,7 @@
         margin-top: 20px;
         margin-bottom: 1px;
         /*    background: linear-gradient(to right, #F27121, #b32a3d, black);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background: linear-gradient(to right, #24adaf, #074e5d, rgb(1, 33, 41));
+        background: linear-gradient(to right, #24adaf, #074e5d, rgb(1, 57, 71));
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
