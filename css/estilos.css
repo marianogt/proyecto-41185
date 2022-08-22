@@ -83,7 +83,9 @@ main {
 .main__inicio1__ilustracion {
   padding-top: 5px;
   align-items: center;
-  margin-left: 60px; }
+  margin-left: 60px;
+  width: 780px;
+  height: 400px; }
 
 .main__ubicacion {
   padding-top: 20px; }
@@ -140,7 +142,9 @@ main {
 .grid__hijo {
   border-radius: 10px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  width: 100%;
+  height: 100%; }
 
 .grid__hijo--2 {
   grid-area: img2;
@@ -310,6 +314,10 @@ main {
 
 .a__color--footer {
   color: #160456; }
+
+.a__size--footer {
+  width: 25px;
+  height: 25px; }
 
 .h3__footer__derechos {
   padding-top: 20px;
