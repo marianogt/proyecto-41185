@@ -53,6 +53,8 @@ a {
     margin-left: 56px;
     color: aqua;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-right: 5px;
+    font-size:25px;
 }
 
 .nav__item--oculto {
@@ -64,4 +66,9 @@ a {
     font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
     font-size: 50px;
     font-weight: bold;
+}
+
+.header__imagen{
+    width:120px;
+    height:90px;
 }

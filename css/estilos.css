@@ -45,7 +45,9 @@ a {
 .nav__item {
   margin-left: 56px;
   color: aqua;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 5px;
+  font-size: 25px; }
 
 .nav__item--oculto {
   display: none; }
@@ -55,6 +57,10 @@ a {
   font-family: 'Times New Roman', serif, sans-serif, 'Courier New', Courier, monospace;
   font-size: 50px;
   font-weight: bold; }
+
+.header__imagen {
+  width: 120px;
+  height: 90px; }
 
 main {
   margin-top: 100px;
@@ -84,7 +90,7 @@ main {
   padding-top: 5px;
   align-items: center;
   margin-left: 60px;
-  width: 780px;
+  width: 750px;
   height: 400px; }
 
 .main__ubicacion {
@@ -249,6 +255,10 @@ main {
   border-radius: 10px;
   margin-bottom: 10px; }
 
+.card__image {
+  width: 100px;
+  height: 100px; }
+
 .card__parrafo {
   text-align: center;
   font-size: 11px;
@@ -324,7 +334,7 @@ main {
   padding-bottom: 10px;
   padding-left: 500px;
   color: #297070;
-  /*  font-size: 20px;*/ }
+  font-size: 20px; }
 
 .footer__logo {
   width: 65px;
@@ -425,7 +435,7 @@ main {
     flex-direction: column; }
   .h3__footer__derechos {
     padding-left: 10px;
-    font-size: 20px; }
+    font-size: 5px; }
   .main__inicio1__ilustracion {
     width: 650px;
     margin-left: 10px; }
@@ -434,8 +444,9 @@ main {
   .grid__hijo--4 {
     width: 205px; }
   .nav__item {
-    margin-left: 25px;
-    margin-right: 15px; } }
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 20px; } }
 
 /* Movil */
 @media screen and (max-width: 599px) {
@@ -451,7 +462,7 @@ main {
     left: 0;
     z-index: 1000000;
     width: 45%;
-    height: 25vh;
+    height: 35vh;
     /*  color: rgb(0, 0, 0);*/ }
   .h2__color {
     display: none; }
@@ -472,7 +483,7 @@ main {
     display: block; }
   .main__inicio1 {
     flex-direction: column;
-    padding: 5rem 1rem; }
+    padding: 1rem; }
   .main__inicio1__titulo {
     font-size: 30px; }
   /*
@@ -484,6 +495,7 @@ main {
     margin-top: 10px; }
   .main__inicio1__ilustracion {
     width: 240px;
+    height: 300px;
     margin-left: 1px; }
   .footer__horizontal {
     display: flex;
@@ -494,7 +506,7 @@ main {
   .grid {
     margin-top: 1px;
     margin-left: 1px;
-    margin-right: 1px;
+    margin-right: 4px;
     border: 2px solid lightgray;
     padding: 0.1rem;
     height: 320px;
@@ -511,7 +523,7 @@ main {
     justify-content: center;
     align-content: center; }
   .grid__hijo--4 {
-    width: 82px; }
+    width: 95px; }
   .grid__text {
     font-size: 10px;
     position: absolute;
@@ -522,6 +534,10 @@ main {
     border-radius: 6px;
     color: orange;
     padding: 0.5rem 0.5rem; }
+  .footer__logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px; }
   main {
     margin-top: 20px;
     margin-bottom: 1px;

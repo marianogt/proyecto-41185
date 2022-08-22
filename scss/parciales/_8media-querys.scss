@@ -20,7 +20,7 @@
 
     .h3__footer__derechos {
         padding-left: 10px;
-        font-size: 20px;
+        font-size: 5px;
     }
 
     .main__inicio1__ilustracion {
@@ -35,8 +35,9 @@
         width: 205px;
     }    
     .nav__item{
-        margin-left: 25px;
-        margin-right: 15px;
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 20px;
     }
 }
 
@@ -58,7 +59,7 @@
         left: 0;
         z-index: 1000000;
         width: 45%;
-        height: 25vh;
+        height: 35vh;
         //      transition: left 1s;
         /*  color: rgb(0, 0, 0);*/
     }
@@ -94,7 +95,7 @@
 
     .main__inicio1 {
         flex-direction: column;
-        padding: 5rem 1rem;
+        padding: 1rem;
     }
 
     .main__inicio1__titulo {
@@ -113,6 +114,7 @@
 
     .main__inicio1__ilustracion {
         width: 240px;
+        height: 300px;
         margin-left: 1px;
     }
 
@@ -129,7 +131,7 @@
     .grid {
         margin-top: 1px;
         margin-left: 1px;
-        margin-right: 1px;
+        margin-right: 4px;
         border: 2px solid lightgray;
         padding: 0.1rem;
         height: 320px;
@@ -153,7 +155,7 @@
     }
 
     .grid__hijo--4 {
-        width: 82px;
+        width: 95px;
     }
     .grid__text {
         font-size: 10px;
@@ -165,6 +167,12 @@
         border-radius: 6px;
         color: $colorbase;
         padding: 0.5rem 0.5rem;
+    }
+
+    .footer__logo{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
     }
 
     main {
