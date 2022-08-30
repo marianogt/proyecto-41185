@@ -47,7 +47,7 @@ a {
   color: aqua;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-right: 5px;
-  font-size: 25px; }
+  font-size: 22px; }
 
 .nav__item--oculto {
   display: none; }
@@ -114,6 +114,10 @@ main {
 
 .main__empresa_titulo {
   font-weight: bold; }
+
+.main__empresa_imagen {
+  width: 680px;
+  height: 420px; }
 
 /*.main__contacto__section {
      background-image: "../imagenes/side.jpeg"; 
@@ -298,6 +302,9 @@ main {
   font-size: 14px;
   color: black; }
 
+.carru__heigth {
+  height: 260px; }
+
 .footer__whatsapp {
   color: darkgreen;
   font-size: 32px;
@@ -434,8 +441,8 @@ main {
     display: flex;
     flex-direction: column; }
   .h3__footer__derechos {
-    padding-left: 10px;
-    font-size: 5px; }
+    padding-left: 30px;
+    font-size: 12px; }
   .main__inicio1__ilustracion {
     width: 650px;
     margin-left: 10px; }
@@ -462,8 +469,7 @@ main {
     left: 0;
     z-index: 1000000;
     width: 45%;
-    height: 35vh;
-    /*  color: rgb(0, 0, 0);*/ }
+    height: 35vh; }
   .h2__color {
     display: none; }
   .header__icono {
